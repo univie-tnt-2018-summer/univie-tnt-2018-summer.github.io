@@ -1,6 +1,6 @@
-﻿---
-layout: post
-title: commandlineegger
 ---
-![] (../img/egger/screenshot.png)
+layout: post
+title: Command Line (Egger)
+---
+![](../img/egger/screenshot.png)
 
