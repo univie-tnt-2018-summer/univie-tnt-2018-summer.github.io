@@ -2,5 +2,5 @@
 layout: post
 title: Command Line (Egger)
 ---
-![](../img/Egger/screenshot.png)
 
+![](../img/Egger/screenshot.png)
