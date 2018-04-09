@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://univie-tnt-2018-summer.github.io/"
-baseurl: ""
+url: "https://tshjortile.github.io/letthefunbegin"
+baseurl: "/letthefunbegin"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -64,7 +64,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Students of the Class
+  name: Erika Unterpertinger
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -72,9 +72,9 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
+#  email: "someone@example.com"
 #  facebook: daattali
-#  github: daattali
+  github: tshjortile
 #  twitter: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -92,14 +92,15 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
+  github: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "univie-tnt-2018-summer.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "tshjortile.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
