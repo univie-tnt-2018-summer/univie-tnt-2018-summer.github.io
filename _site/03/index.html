@@ -6,10 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>First post!</title>
+  <title>Version Control and Collaboration</title>
 
   <meta name="author" content="Students of the Class" />
 
+  
+  <meta name="description" content="Getting to know `git` and `github.com`">
   
 
   <link rel="alternate" type="application/rss+xml" title="070146 KU KU Methodenkurs (2018S) - TNT—Tools & Techniques for Digital Humanities" href="/feed.xml" />
@@ -52,26 +54,19 @@
   
 
   
-  <meta property="og:title" content="First post!" />
+  <meta property="og:title" content="Version Control and Collaboration" />
   
 
    
-  <meta property="og:description" content="Hello, world!
-
-This website is built with Jekyll and markdown.
-
-To learn about markdown, use this tutorial: https://www.markdowntutorial.com/
-
-To learn more about Jekyll, use this one: https://programminghistorian.org/
-">
+  <meta property="og:description" content="Getting to know `git` and `github.com`">
   
 
 
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://localhost:4000/2018-03-18-first-post/" />
-  <link rel="canonical" href="http://localhost:4000/2018-03-18-first-post/" />
+  <meta property="og:url" content="http://localhost:4000/03/" />
+  <link rel="canonical" href="http://localhost:4000/03/" />
   
 
   
@@ -85,18 +80,11 @@ To learn more about Jekyll, use this one: https://programminghistorian.org/
   <meta name="twitter:creator" content="@" />
 
   
-  <meta name="twitter:title" content="First post!" />
+  <meta name="twitter:title" content="Version Control and Collaboration" />
   
 
   
-  <meta name="twitter:description" content="Hello, world!
-
-This website is built with Jekyll and markdown.
-
-To learn about markdown, use this tutorial: https://www.markdowntutorial.com/
-
-To learn more about Jekyll, use this one: https://programminghistorian.org/
-">
+  <meta name="twitter:description" content="Getting to know `git` and `github.com`">
   
 
   
@@ -371,8 +359,8 @@ To learn more about Jekyll, use this one: https://programminghistorian.org/
 	
 	<div class="avatar-container">
 	  <div class="avatar-img-border">
-	    <a href="http://localhost:4000">
-	      <img class="avatar-img" src="/img/hello_world.jpeg" />
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/img/avatar-icon.png" />
 		</a>
 	  </div>
 	</div>
@@ -394,12 +382,15 @@ To learn more about Jekyll, use this one: https://programminghistorian.org/
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-heading">
-          <h1>First post!</h1>
+        <div class="page-heading">
+          <h1>Version Control and Collaboration</h1>
+		  
+		    
+            <hr class="small">
+            <span class="page-subheading">Getting to know `git` and `github.com`</span>
+			
 		  
 		  
-		  
-		  <span class="post-meta">Posted on March 18, 2018</span>
 		  
         </div>
       </div>
@@ -411,83 +402,151 @@ To learn more about Jekyll, use this one: https://programminghistorian.org/
 
 
 
-<div class="container">
+<div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h1 id="general-workflow">General workflow:</h1>
 
-      
+<ul>
+  <li><a href="https://github.com/">github.com</a> :: make an account</li>
+  <li>download git software (Windows; Macs usually have it already)</li>
+  <li><code class="highlighter-rouge">fork</code> a repository</li>
+  <li><code class="highlighter-rouge">clone</code></li>
+  <li><em>work</em></li>
+  <li><code class="highlighter-rouge">add</code></li>
+  <li><code class="highlighter-rouge">commit</code></li>
+  <li><code class="highlighter-rouge">push</code> / <code class="highlighter-rouge">pull</code></li>
+  <li>send <code class="highlighter-rouge">pull request</code></li>
+</ul>
 
-      <article role="main" class="blog-post">
-        <p>Hello, world!</p>
+<h1 id="some-command-line-commands">Some command line commands</h1>
 
-<p>This website is built with <code class="highlighter-rouge">Jekyll</code> and <code class="highlighter-rouge">markdown</code>.</p>
+<ul>
+  <li><code class="highlighter-rouge">pwd</code>
+    <ul>
+      <li>shows you where you are on a drive (gives you path)</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">ls</code> / <code class="highlighter-rouge">dir</code> [on Windows]
+    <ul>
+      <li>shows everything in the your current location/folder</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">cd &lt;name of the folder&gt;</code>
+    <ul>
+      <li>takes you to that folder</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">cd ..</code>
+    <ul>
+      <li>takes you one level up in the tree structure of your computer</li>
+    </ul>
+  </li>
+</ul>
 
-<p>To learn about <code class="highlighter-rouge">markdown</code>, use this tutorial: <a href="https://www.markdowntutorial.com/">https://www.markdowntutorial.com/</a></p>
+<h1 id="github-main-commands">GitHub: Main Commands</h1>
 
-<p>To learn more about <code class="highlighter-rouge">Jekyll</code>, use this one: <a href="https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages">https://programminghistorian.org/</a></p>
+<ul>
+  <li><code class="highlighter-rouge">git clone &lt;link&gt;</code>
+    <ul>
+      <li>clones/downloads a repository on you machine</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">git status</code>
+    <ul>
+      <li>shows the current status of the repository (new, changed, deleted)</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">git add .</code>
+    <ul>
+      <li>adds all new files and modified files to the repository</li>
+    </ul>
+  </li>
+  <li>`git commit -m “message”
+    <ul>
+      <li>saves all files in their current state into the repository, and created a milestone</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">git push origin master</code>
+    <ul>
+      <li>uploads changes to <a href="https://github.com/">github.com</a></li>
+      <li><strong>NB:</strong> sometimes you may get an error, which in most cases means that you need to <code class="highlighter-rouge">pull</code> first</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">git pull origin master</code>
+    <ul>
+      <li>downloads changes from <a href="https://github.com/">github.com</a></li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">git log</code>
+    <ul>
+      <li>shows the history of <code class="highlighter-rouge">commit</code>s; here you can choose where you want to roll back, in case of troubles</li>
+    </ul>
+  </li>
+</ul>
 
-      </article>
+<h1 id="from-the-syllabus">From the syllabus</h1>
 
-      
+<h2 id="goals">Goals:</h2>
 
-      
-        <!-- Check if any share-links are active -->
+<p>Learning about version control systems and how they help in the development of  DH project, which are often a lengthy and complex, and require organic collaboration.</p>
+
+<h2 id="software">Software:</h2>
+
+<ul>
+  <li>
+    <p>create github account @ https://github.com/</p>
+  </li>
+  <li>
+    <p>Github</p>
+    <ul>
+      <li>[Win] install from here: https://git-scm.com/downloads</li>
+      <li>[Mac] github is already on your machine</li>
+      <li>[Win] also install the desktop interface https://desktop.github.com/)</li>
+      <li>Jekyll, a simple, blog-aware, static site generator</li>
+      <li>see Reference Materials below on how to install</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="class">Class:</h2>
+
+<ul>
+  <li>Basic <code class="highlighter-rouge">git</code> functionality</li>
+  <li>Starting a website; basics of <code class="highlighter-rouge">markdown</code></li>
+</ul>
+
+<h2 id="reference-materials">Reference Materials:</h2>
+
+<ul>
+  <li>Simpkin, Sarah. 2015. “Getting Started with Markdown.” Programming Historian, November. <a href="https://programminghistorian.org/lessons/getting-started-with-markdown">https://programminghistorian.org/</a>.</li>
+  <li>Visconti, Amanda. 2016. “Building a Static Website with Jekyll and GitHub Pages.” Programming Historian, April. <a href="https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages">https://programminghistorian.org/</a>.</li>
+</ul>
+
+<h2 id="homework">Homework:</h2>
+
+<ul>
+  <li>Build your website on github from the template at <a href="https://github.com/univie-tnt-2018-summer/univie-tnt-2018-summer.github.io">https://github.com/univie-tnt-2018-summer</a>
+    <ul>
+      <li><code class="highlighter-rouge">fork</code></li>
+      <li>create a repository under your account with the name: <code class="highlighter-rouge">username.github.io</code>, where username is your github username; the repository with such names are automatically treated by github as a website.</li>
+      <li>copy all files from the forked repository into your new one (<code class="highlighter-rouge">clone</code> &gt; <code class="highlighter-rouge">copy/paste</code>)</li>
+      <li>README.md has all the instructions on how to make modifications to your site; play with those!</li>
+      <li>you can pick a different theme for you site (just google <code class="highlighter-rouge">jekyll themes</code> for options)</li>
+    </ul>
+  </li>
+  <li>Complete Codecademy’s <em>Learn Git</em> <a href="https://www.codecademy.com/learn/learn-git">https://www.codecademy.com/learn/learn-git</a>;
+    <ul>
+      <li>if you’d like more practice, there is another one: <a href="https://try.github.io">https://try.github.io</a></li>
+    </ul>
+  </li>
+  <li>Publish your confirmation screenshot as a post on your new site;</li>
+  <li>Also, add a page with this confirmation to the shared (forked site) and send me <code class="highlighter-rouge">pull request</code></li>
+  <li>complete the markdown tutorial @ <a href="https://www.markdowntutorial.com/">https://www.markdowntutorial.com/</a>. This will help you to write pages on your website</li>
+</ul>
 
 
-
-
-<section id = "social-share-section">
-  <span class="sr-only">Share: </span>
-
-  
-  <!--- Share on Twitter -->
-    <a href="https://twitter.com/intent/tweet?text=First+post%21+http://localhost:4000/2018-03-18-first-post/"
-      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
-      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
-      <span class="sr-only">Twitter</span>
-    </a>
-  
-
-  
-  <!--- Share on Facebook -->
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2018-03-18-first-post/"
-      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
-      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
-      <span class="sr-only">Facebook</span>
-    </a>
-  
-
-  
-
-  
-  <!--- Share on LinkedIn -->
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2018-03-18-first-post/"
-      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
-      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
-      <span class="sr-only">LinkedIn</span>
-    </a>
-  
-
-</section>
-
-
-
-      
-
-      <ul class="pager blog-pager">
-        
-        
-        <li class="next">
-          <a href="/2018-03-19-flake-it-till-you-make-it/" data-toggle="tooltip" data-placement="top" title="Flake it till you make it">Next Post &rarr;</a>
-        </li>
-        
-      </ul>
-
-      
-        <div class="disqus-comments">
-          
-        </div>
-      
+	    
     </div>
   </div>
 </div>
