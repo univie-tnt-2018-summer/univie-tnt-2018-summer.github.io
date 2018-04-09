@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post!
-image: /img/lukas_voit/Profil_Voit.JPG
+image: /img/hello_world.jpeg
 ---
 
 Hello, world!
