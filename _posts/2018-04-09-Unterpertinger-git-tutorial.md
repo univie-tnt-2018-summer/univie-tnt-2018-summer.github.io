@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Command Line Tutorial Complete! (Unterpertinger)
+title: Git Tutorial Complete! (Unterpertinger)
 ---
 
 Here is the confirmation of the completion of the tutorial:
