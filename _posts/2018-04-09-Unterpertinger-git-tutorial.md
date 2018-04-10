@@ -4,4 +4,4 @@ title: Git Tutorial Complete! (Unterpertinger)
 ---
 
 Here is the confirmation of the completion of the tutorial:
-! [] (../img/Unterpertinger/Unterpertinger-GitTutorial.png).
+![](../img/Unterpertinger/Unterpertinger-GitTutorial.png).
