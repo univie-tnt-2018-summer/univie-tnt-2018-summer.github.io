@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Command Line Tutorial Complete! (Voit)
-image: /img/lukas_voit/Profil_Voit.JPG
+image: /img/hello_world.jpeg
 ---
 
 Here is the confirmation of the completion of the tutorial:
