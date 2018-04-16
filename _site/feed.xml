@@ -7,6 +7,177 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Pandoc Test! (Romanov)</title>
+        <description>
+          
+          From: “Modeling: A Study in Words and Meanings” by Willard McCarty Out on site, you were never parted from your plans. They were your Bible. They got dog-eared, yellowed, smeared with mud, peppered with little holes from where you had unrolled them on the ground. But although so sacred, the...
+        </description>
+        <pubDate>Mon, 09 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-04-09-romanov-pandoc/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-09-romanov-pandoc/</guid>
+      </item>
+    
+      <item>
+        <title>Git Tutorial Complete! (Hamzabegovic)</title>
+        <description>
+          
+          Here is my confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Thu, 22 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-22-hamzabegovic-learn-git-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-22-hamzabegovic-learn-git-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Command Line Tutorial Complete! (Voit)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-voit_lukas-command_line_tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-voit_lukas-command_line_tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Command Line Tutorial Complete! (Tomko)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-tomko-command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-tomko-command-line-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Command Line Tutorial Complete! (Schellewald)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-schellewald-command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-schellewald-command-line-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Command Line Tutorial Complete! (Romanov)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-romanov-command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-romanov-command-line-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Rismondo Command Line Tutorial</title>
+        <description>
+          
+          ﻿—
+layout: post
+title: Command Line Tutorial Complete
+—
+
+here is the confirmation of the tutorial!
+
+! [] (../img/rismondo/command_line_complete.png)
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-rismondo-command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-rismondo-command-line-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Command Line Tutorial Complete! (Hamzabegovic)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-hamzabegovic-command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-hamzabegovic-command-line-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Screenshot_commandline!</title>
+        <description>
+          
+          Hello, world!
+
+This is my homework - i finished it.
+
+
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-degenhardt-command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-degenhardt-command-line-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Command Kine Tutorial Complete! (Altrichter)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-altrichter-command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-altrichter-command-line-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Command Line Tutorial Complete! (Zavarsky)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-Zavarsky-command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-Zavarsky-command-line-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Command Line Tutorial Complete! (Unterpertinger)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+! [] (../img/Unterpertinger/Unterpertinger_learntheCommandLine.jpg).
+
+        </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-03-20-Unterpertinger-Command-line-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-20-Unterpertinger-Command-line-tutorial/</guid>
+      </item>
+    
+      <item>
         <title>Flake it till you make it</title>
         <description>
           Excerpt from Soulshaping by Jeff Brown - 
