@@ -23,8 +23,23 @@ description: TNT—Tools & Techniques for Digital Humanities
 
 # List of links in the navigation bar
 navbar-links:
+  Materials:
+    - 01. Citation Management and Academic Writing I: "01"
+    - 02. “Off with the Interface!” Getting to know the command line: "02"
+    - 03. Version Control and Collaboration: "03"
+    - 04. Citation Management and Academic Writing II: "04"
+    - 05. Georeferencing with QGIS: "05"
+    - 06. Regular expressions: "06"
+    - 07. Webscraping: "07"
+    - 08. Text Markup [TEI XML], and how to remove it…: "08"
+    - 09. Structuring data: "09"
+    - 10. Text to Map: "10"
+    - 11. Topic modeling with R: "11"
+    - 12. Social Network Analysis with Gephi: "12"
+    - 13. Stylometric analysis with R: "13"
   About: "about"
   Resources:
+    - Keep your fork up-to-date: "https://gist.github.com/CristinaSolana/1885435"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
