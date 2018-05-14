@@ -7,6 +7,41 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Python Tutorial (3-4) Complete + Georef. Map (Unterpertinger)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+
+        </description>
+        <pubDate>Wed, 25 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-04-25-Unterpertinger-python-tut2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-25-Unterpertinger-python-tut2/</guid>
+      </item>
+    
+      <item>
+        <title>Python Tutorial Complete &amp; Homework files! (Unterpertinger)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+Here are the semi-formatted files I put out with pandoc:
+
+
+
+
+
+        </description>
+        <pubDate>Tue, 17 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-04-17-Unterpertinger-Python-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-17-Unterpertinger-Python-tutorial/</guid>
+      </item>
+    
+      <item>
         <title>Pandoc Test! (Romanov)</title>
         <description>
           
@@ -15,6 +50,47 @@
         <pubDate>Mon, 09 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2018-04-09-romanov-pandoc/</link>
         <guid isPermaLink="true">http://localhost:4000/2018-04-09-romanov-pandoc/</guid>
+      </item>
+    
+      <item>
+        <title>Command Line Tutorial Complete! (Santi)</title>
+        <description>
+          
+          Here is the confirmation of the copletion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Mon, 09 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-04-09-santi-command-line/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-09-santi-command-line/</guid>
+      </item>
+    
+      <item>
+        <title>Git Tutorial Complete! (Unterpertinger)</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+.
+
+        </description>
+        <pubDate>Mon, 09 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-04-09-Unterpertinger-git-tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-09-Unterpertinger-git-tutorial/</guid>
+      </item>
+    
+      <item>
+        <title>Finishing Git-Tutorial</title>
+        <description>
+          
+          Here is the confirmation of the completion of the tutorial:
+
+
+
+        </description>
+        <pubDate>Sun, 01 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018-04-01-voit_lukas-tutorial-git/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-04-01-voit_lukas-tutorial-git/</guid>
       </item>
     
       <item>
@@ -154,7 +230,11 @@ This is my homework - i finished it.
         <title>Command Line Tutorial Complete! (Zavarsky)</title>
         <description>
           
-          Here is the confirmation of the completion of the tutorial:
+          Here is the confirmation of the completion of the Command Line tutorial:
+
+
+
+And here is the confirmation of the completion of the Git toturial
 
 
 
