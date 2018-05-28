@@ -9,25 +9,27 @@ text0 = """
 </note>
 """
 
-# EXAMPLE 1 - find/replace
-
-text = re.sub("<[^<]+>", "", text0)
-
-print(text)
+### EXAMPLE 1 - find/replace
+##
+##text = re.sub("<[^<]+>", "", text0)
+##
+##print(text)
 
 
 # EXAMPLE 2 - split
 
 results = re.split("</[^<]+>", text0)
 
-for r in results:
-    print(r)
-
-print(results)
+##for r in results:
+##    r = re.sub("^\s+<[^<]+>|\n", "", r)
+##    print(r)
+##    input()
+##
+##print(results)
 
 
 # EXAMPLE 3 - capture
 
-text = re.search(r"<from>([^<]+)</from>", text0).group(1)
+text = re.search(r"(<from>)([^<]+)(</from>)", text0).group(1)
 
 print(text)
