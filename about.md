@@ -23,10 +23,11 @@ subtitle: TNT Tools & Techniques for Digital Humanities
 - 08.05 — [07] Webscraping
 - 15.05 — [08] Text Markup [TEI XML], and how to remove it…
 - 29.05 — [09] Structuring data
-- 05.06 — [10] Text to Map
-- 12.06 — [11] Topic modeling with R
-- 19.06 — [12] Social Network Analysis with Gephi
-- 26.06 — [13] Stylometric analysis with R
+- 05.06 — [10] Text to Map (1/2)
+- 12.06 — [11] Text to Map (2/2)
+- 19.06 — [12] Topic modeling with R
+- 26.06 — [13] Social Network Analysis with Gephi
+- 00.00 — [14] Stylometric analysis with R (*excluded*)
 
 # Aims, contents and method of the course
 
