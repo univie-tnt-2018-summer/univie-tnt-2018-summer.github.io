@@ -468,10 +468,33 @@
 
 <p>The steamship Scotia arrived at New York on Thursday from Europe, with foreign news to the 7th inst. The news is not important. The Confederate steamer Lord Clyde was searched by order of the British Government, but nothing contraband being found on board her she was permitted to sail. The Russians have been defeated near Grochoury by the Polish insurgents. The three Powers have sent an earnest note to Russia, asking for a representative Government, a general amnesty, and an immediate cessation of hostilities in Poland.</p>
 
+<h1 id="nb-before-you-start-running-the-script">NB: Before you start running the script!</h1>
+
+<p>Run the following lines in R (this will install all necessary packages):</p>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">install.packages</span><span class="p">(</span><span class="s2">"rstudioapi"</span><span class="p">)</span><span class="w">
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"readr"</span><span class="p">)</span><span class="w">
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"rJava"</span><span class="p">)</span><span class="w">
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"mallet"</span><span class="p">)</span><span class="w">
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"plyr"</span><span class="p">)</span><span class="w">
+</span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"ggplot2"</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
 <h1 id="topic-modeling-script-windows-version">Topic Modeling Script (Windows Version)</h1>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="w">
-</span><span class="c1"># NB: Required files in the folder:
+</span><span class="c1"># "Mining the Dispatch," seeks to explore and encourage exploration of the dramatic and often
+# traumatic changes as well as the sometimes surprising continuities in the social and political
+# life of Civil War Richmond. It uses as its evidence nearly the full run of the Richmond Daily
+# Dispatch from the eve of Lincoln's election in November 1860 to the evacuation of the city in
+# April 1865. It uses as its principle methodology topic modeling, a computational, probabilistic
+# technique to uncover categories and discover patterns in and among texts. On this site you'll
+# be able to view and generate graphs and charts that reveal some of the changing patterns in the
+# topics that dominated the news during the Civil War in the capital of the Confederacy's
+# newspaper of record.
+</span><span class="w">
+</span><span class="c1"># NB: Required files in a folder:
 # dispatch_articles_for_tm_tabular.txt
 # dispatch_articles_topic_model_advanced.R
 # dispatch_issues_for_tm_stopwords_curated_outOf300.csv
@@ -646,6 +669,7 @@
 </span><span class="n">topics.texts.stats</span><span class="o">$</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.character</span><span class="p">(</span><span class="n">topics.texts.stats</span><span class="o">$</span><span class="n">id</span><span class="p">)</span><span class="w">
 </span><span class="n">topics.texts.stats</span><span class="o">$</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sub</span><span class="p">(</span><span class="s2">"^X"</span><span class="p">,</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w"> </span><span class="n">topics.texts.stats</span><span class="o">$</span><span class="n">id</span><span class="p">)</span><span class="w">
 </span><span class="n">topics.texts.stats</span><span class="o">$</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sub</span><span class="p">(</span><span class="s2">"\\."</span><span class="p">,</span><span class="w"> </span><span class="s2">"-"</span><span class="p">,</span><span class="w"> </span><span class="n">topics.texts.stats</span><span class="o">$</span><span class="n">id</span><span class="p">)</span><span class="w">
+</span><span class="n">topics.texts.stats</span><span class="o">$</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sub</span><span class="p">(</span><span class="s2">"\\."</span><span class="p">,</span><span class="w"> </span><span class="s2">"-"</span><span class="p">,</span><span class="w"> </span><span class="n">topics.texts.stats</span><span class="o">$</span><span class="n">id</span><span class="p">)</span><span class="w">
 </span><span class="n">topics.texts.stats.complete</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">merge</span><span class="p">(</span><span class="n">topics.texts.stats</span><span class="p">,</span><span class="w"> </span><span class="n">dispatch.articles</span><span class="p">,</span><span class="w"> </span><span class="n">by</span><span class="o">=</span><span class="s2">"id"</span><span class="p">)</span><span class="w">
 
 </span><span class="c1"># reading top samples of topics
@@ -737,6 +761,8 @@
 </span><span class="w">  </span><span class="n">graph.name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">paste0</span><span class="p">(</span><span class="n">file.prefix</span><span class="p">,</span><span class="w"> </span><span class="s2">"Topic_"</span><span class="p">,</span><span class="w"> </span><span class="n">topic.var</span><span class="p">,</span><span class="w"> </span><span class="s2">".png"</span><span class="p">)</span><span class="w">
   </span><span class="n">ggsave</span><span class="p">(</span><span class="n">graph.name</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">5</span><span class="p">,</span><span class="w"> </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">300</span><span class="p">)</span><span class="w"> 
 </span><span class="p">}</span><span class="w">
+
+
 
 </span></code></pre>
 </div>
